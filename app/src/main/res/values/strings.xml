@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">TemboTrevor</string>
+
+    <string name="healthy_recipes_string">
+        1. Fruit Salad\nA mix of fresh fruits like bananas, apples, and oranges.\n\n
+        2. Grilled Chicken\nLow-fat grilled chicken served with vegetables.
+        3. Vegetable Stir Fry\nCarrots, broccoli, and peppers cooked lightly
+        4. Oatmeal Breakfast\nOats with milk and fruits.\n\n
+        5. Avocado Toast\nWhole grain bread topped with avocado.\n\n
+    </string>
+    <string name="nutrition">
+        Nutrition Tips\n\n
+        1. Eat a balanced Diet/n
+        2. Stay Hydrated/nDrink plenty of water throughout the day to support body functions./n/n
+        3. Eat More Fruits and Vegetables/nThey are rich in vitamins, minerals, and fiber./n/n
+        4. Choose whole Grain\nOpt for brown rice, oats and whole wheat instead of refined grains.\n\n
+        5. Limit sugar intake\n\n
+    </string>
+    <string name="meditation">Meditation Guide\n\n
+        1. Find a Quiet Space\nChoose a calm and peaceful place where you wont be disturbed.\n\n
+        2.Sit Comfortably\nSit in a relaxed position with your back straight.\n\n
+        3. Focus on Your Breath\nBreathe in slowly through your nose and out through your mouth.\n\n
+        4. Be Present\nLet go of thoughts about the past or future and stay in the moment.\n\n
+        5. Start Small\nBegin with 5-10 minutes and gradually increase your time.\n\n
+        6. Use a Calm Mindset\nDont force your thoughts away-just observe them and let them pass.\n\n
+        7. Practice Regularly\nMeditate daily to build consistency and mental clarity.\n\n
+        8. Relax Your Body\nRelease tension from your shoulders, neck, and face.\n\n
+        9. Try Guided Meditation\nListen to calming instructions if youre a beginner.\n\n
+        10. End Gently\nSlowly open your eyes and take a moment before returning to your day.</string>
+    <string name="hydration">
+        Hydration Reminder\n\n
+        1. Drink water regularly throughout the day.\n
+        2. Dont wait until you feel thirsty.\n
+        3. Carry a water bottle with you.\n
+        4. Take small sips often to stay refreshed.\n
+        5. Stay hydrated for better health and focus.
+    </string>
+    <string name="exercise">Exercise Guide\n\n
+        1. Warm Up\nStart with light moments to prepare your body.\n\n
+        2. Choose Your Activity\nPick an exercise you enjoy like walking, running, or stretching.\n\n
+        3. Start Slowly\nBegin at a comfortable pace and avoid overexertion.\n\n
+        4. Maintain Proper Form\nKeep good posture to prevent injuries.\n\n
+        5. Stay Hydrated\nDrink water before, during, and after exercise.\n\n
+        6. Listen to Your Body\nStop if you feel pain or dizziness.\n\n
+        7. Be Consistent\nExercise regularly for better results.\n\n
+        8. Cool Down\nEnd with gentle stretches to relax your muscles.\n\n
+        9. Rest When Needed\nAllow time for recovery between sessions.\n\n
+        10. Stay Motivated\nSet goals and track your progress.
+    </string>
+    <string name="motivation">Daily Motivation\n\n
+        1.Start Your Day Positive\nSet a clear intention for the day ahead.\n\n\
+        2. Believe in Yourself\nTrust your abilities and stay confident.\n\n
+        3. Take Small Steps\nProgress is made one step at a time.\n\n
+        4. Stay Focused\nAvoid distractions and keep your goals in mind.\n\n
+        5. Embrace Challenges\nSee obstacles as opportunities to grow.\n\n
+        6. Keep Learning\nEvery day is a chance to improve yourself.\n\n
+        7. Stay Consistent\nSuccess comes from daily effort.\n\n
+        8. Practice Gratitude\nAppreciate what you have and your progress.\n\n
+        9. Stay Strong\nDon't give up, even when things get tough.\n\n
+        10. End the Day Proud \nReflect on what you achieved today.
+    </string>
+    <string name="goals">Daily Goals\n\n>
+        1. Set Clear Goals\nDecide what you want to achieve today.\n\n
+        2. Prioritize Tasks\nFocus on the most important things first.\n\n
+        3. Break It Down\nDivide big tasks into smaller ones.\n\n
+        4. Stay Organized\nKeep a list to track your progress.\n\n
+        5. Manage Your Time\nAllocate time wisely for each task.\n\n
+        6. Avoid Procrastination\nStart tasks without unnecessary delay.\n\n
+        7. Stay Focused\nMinimize distractions while working.\n\n
+        8. Review Progress\nCheck what you have completed during the day.\n\n
+        9. Adjust When Needed\nBe flexible and update your plans if necessary.\n\n
+        10. Celebrate Achievements\nAcknowledge your accomplishments, big or small.
+    </string>
+    <string name="progress">Check Progress\n\n
+        1. Review Your Tasks\nLook at what you planned for the day.\n\n
+        2. Mark Completed Items\nIdentify what you have already finished.\n\n
+        3. Measure Your Progress\nSee how far you have come towards your goals.\n\n
+        4. Identify Challenges\Note any difficulties you faced.\n\n
+        5. Stay Honest\nBe realistic about your performance.\n\n
+        6. Learn From Mistakes\nUnderstand what didn't work and why.\n\n
+        7. Adjust Your Plan\nMake changes to improve your workflow.\n\n
+        8. Stay Motivated\nFocus on progress, not perfection.\n\n
+        9. Plan Next Steps\nPrepare what to do next.\n\n
+        10. Celebrate Small Wins\nAppreciate every bit of progress you made.
+    </string>
+</resources>
