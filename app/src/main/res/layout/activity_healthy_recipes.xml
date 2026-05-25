@@ -7,10 +7,13 @@
     android:layout_height="match_parent"
     android:background="@color/bg"
     tools:context=".HealthyRecipes">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="16dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -18,22 +21,33 @@
             android:textAlignment="center"
             android:layout_margin="10dp"
             android:textColor="@color/black"
-            android:textSize="30sp"/>
-        <ImageView
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/image6"
             android:layout_margin="10dp"
-            android:scaleType="fitCenter"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/healthy_recipes_string"
-            android:textSize="25sp"
-            android:textColor="@color/black"
-            android:layout_margin="10dp"
-            />
+            app:cardElevation="6dp"
+            app:cardCornerRadius="16dp"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/recipeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:lineSpacingExtra="4dp"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
-
 </ScrollView>
