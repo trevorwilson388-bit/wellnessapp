@@ -11,30 +11,115 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="16dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Meditation"
+            android:text="Meditation Timer"
             android:textSize="30sp"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:fontFamily="cursive"
-            />
+            android:textColor="@color/black" />
 
-            <ImageView
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="16dp"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/image1"
-                android:layout_margin="10dp"
-                android:scaleType="fitCenter"/>
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <TextView
+                    android:id="@+id/timerDisplay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="05:00"
+                    android:textSize="56sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/meditationStatusText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Set your meditation duration and begin"
+                    android:textSize="16sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/meditation"
-            android:textColor="@color/black"
-            android:layout_margin="10dp"
-        />
-    </LinearLayout>
+            android:text="Duration (minutes)"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black" />
 
+        <TextView
+            android:id="@+id/sliderLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 minutes"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/minuteSlider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="1"
+            android:valueTo="60"
+            android:stepSize="1"
+            android:value="5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/startTimerButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Start"
+                android:layout_marginEnd="4dp" />
+
+            <Button
+                android:id="@+id/pauseTimerButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pause"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp" />
+
+            <Button
+                android:id="@+id/resetTimerButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Reset"
+                android:layout_marginStart="4dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 </ScrollView>
